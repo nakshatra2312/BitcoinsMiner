@@ -1,0 +1,12 @@
+{application,project1,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"project1"},
+              {modules,['Elixir.BitcoinMining',
+                        'Elixir.BitcoinMining.Mining.Crypto',
+                        'Elixir.BitcoinMining.Mining.Listener',
+                        'Elixir.BitcoinMining.Mining.Miner',
+                        'Elixir.BitcoinMining.Mining.Supervisor',
+                        'Elixir.BitcoinMining.Mining.ZeroMatching']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
